@@ -1,19 +1,18 @@
 //
-//  ViewController.swift
+//  WeatherViewController.swift
 //  WeatherApp
 //
 //  Created by Nureles Abdullai uulu on 5/4/24.
 //
 
 import UIKit
+import SnapKit
 
-class ViewController: UIViewController {
-
+final class WeatherViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        view.backgroundColor = .white
     }
-
-
 }
-
