@@ -14,6 +14,10 @@
 		F511AC452BE6863C00A2C4A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F511AC442BE6863C00A2C4A2 /* Assets.xcassets */; };
 		F511AC482BE6863C00A2C4A2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F511AC472BE6863C00A2C4A2 /* Base */; };
 		F511AC512BE6897E00A2C4A2 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F511AC502BE6897E00A2C4A2 /* WeatherViewController.swift */; };
+		F511AC542BE703B400A2C4A2 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F511AC532BE703B400A2C4A2 /* TitleView.swift */; };
+		F511AC562BEAC6DE00A2C4A2 /* BottomBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F511AC552BEAC6DE00A2C4A2 /* BottomBarView.swift */; };
+		F511AC582BEAC89400A2C4A2 /* DaysTempLimitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F511AC572BEAC89400A2C4A2 /* DaysTempLimitsView.swift */; };
+		F511AC5A2BEAC98700A2C4A2 /* HourlyWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F511AC592BEAC98700A2C4A2 /* HourlyWeatherView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		F511AC472BE6863C00A2C4A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F511AC492BE6863C00A2C4A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F511AC502BE6897E00A2C4A2 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		F511AC532BE703B400A2C4A2 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		F511AC552BEAC6DE00A2C4A2 /* BottomBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBarView.swift; sourceTree = "<group>"; };
+		F511AC572BEAC89400A2C4A2 /* DaysTempLimitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysTempLimitsView.swift; sourceTree = "<group>"; };
+		F511AC592BEAC98700A2C4A2 /* HourlyWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyWeatherView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +102,21 @@
 		F511AC4F2BE6894E00A2C4A2 /* WeatherViewController */ = {
 			isa = PBXGroup;
 			children = (
+				F511AC522BE703A200A2C4A2 /* Views */,
 				F511AC502BE6897E00A2C4A2 /* WeatherViewController.swift */,
 			);
 			path = WeatherViewController;
+			sourceTree = "<group>";
+		};
+		F511AC522BE703A200A2C4A2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F511AC532BE703B400A2C4A2 /* TitleView.swift */,
+				F511AC552BEAC6DE00A2C4A2 /* BottomBarView.swift */,
+				F511AC572BEAC89400A2C4A2 /* DaysTempLimitsView.swift */,
+				F511AC592BEAC98700A2C4A2 /* HourlyWeatherView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +237,10 @@
 				F511AC3C2BE6863B00A2C4A2 /* AppDelegate.swift in Sources */,
 				F511AC512BE6897E00A2C4A2 /* WeatherViewController.swift in Sources */,
 				F511AC3E2BE6863B00A2C4A2 /* SceneDelegate.swift in Sources */,
+				F511AC582BEAC89400A2C4A2 /* DaysTempLimitsView.swift in Sources */,
+				F511AC562BEAC6DE00A2C4A2 /* BottomBarView.swift in Sources */,
+				F511AC542BE703B400A2C4A2 /* TitleView.swift in Sources */,
+				F511AC5A2BEAC98700A2C4A2 /* HourlyWeatherView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
