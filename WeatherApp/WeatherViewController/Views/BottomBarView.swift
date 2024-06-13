@@ -16,7 +16,7 @@ final class BottomBarView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
 
-        backgroundColor = UIColor(named: "lightBlue")
+        backgroundColor = .lightBlue
         layer.shadowColor = UIColor.white.cgColor
         layer.shadowOpacity = 0.3
         layer.shadowRadius = 15
